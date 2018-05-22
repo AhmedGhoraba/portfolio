@@ -1,0 +1,2 @@
+header logo: required;
+header right side cards: they have a cut out shadow, design issue.

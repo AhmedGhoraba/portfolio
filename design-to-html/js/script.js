@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('#menuOn').on('click',function(){
+        $('#all').hide();
+        $('#menu').slideDown();
+    })
+    $('#close').on('click',function(){
+        $('#menu').slideUp();
+        $('#all').fadeIn(200);
+    })
+});

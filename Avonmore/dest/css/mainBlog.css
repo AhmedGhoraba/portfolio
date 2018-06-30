@@ -1,0 +1,394 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Conv_KaushanScript-Regular';
+  src: url("../fonts/KaushanScript-Regular/fonts/KaushanScript-Regular.eot");
+  src: local("☺"), url("../fonts/KaushanScript-Regular/fonts/KaushanScript-Regular.woff") format("woff"), url("../fonts/KaushanScript-Regular/fonts/KaushanScript-Regular.ttf") format("truetype"), url("../fonts/KaushanScript-Regular/fonts/KaushanScript-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_Lato-Regular';
+  src: url("../fonts/Lato-Regular/fonts/Lato-Regular.eot");
+  src: local("☺"), url("../fonts/Lato-Regular/fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular/fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular/fonts/Lato-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_Raleway-Bold';
+  src: url("../fonts/Raleway-Bold/fonts/Raleway-Bold.eot");
+  src: local("☺"), url("../fonts/Raleway-Bold/fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold/fonts/Raleway-Bold.ttf") format("truetype"), url("../fonts/Raleway-Bold/fonts/Raleway-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aparajb';
+  src: url("../fonts/aparajb.ttf"); }
+
+@font-face {
+  font-family: 'Exodus-PersonalUse-Stencil';
+  src: url("../fonts/Exodus-PersonalUse-Stencil.otf"); }
+
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: url("../fonts/WorkSans-Regular.ttf"); }
+
+hr {
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #303233; }
+
+.smalltitle {
+  font-family: "Conv_KaushanScript-Regular";
+  font-size: 0.87rem;
+  color: #303233; }
+
+.medtitle, section .card-title {
+  font-family: "Conv_Raleway-Bold";
+  font-size: 1.9rem;
+  color: #303233; }
+
+.price {
+  font-family: "Conv_Lato-Regular";
+  font-size: 1.9rem;
+  color: #fcca03; }
+
+.paragraph {
+  font-family: "Conv_Lato-Regular";
+  color: #7a7a7a;
+  font-size: 0.87rem; }
+
+.mybutton {
+  font-family: "Conv_Raleway-Bold";
+  font-size: 0.87rem;
+  color: #303233;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+  background-color: white; }
+
+.subheader {
+  background-image: url("../imgs/02.Blog/section-bg-11.jpg");
+  background-position: center;
+  background-size: cover; }
+  .subheader p:nth-child(1) {
+    font-size: 1.15rem;
+    font-family: "Conv_KaushanScript-Regular";
+    color: #7a7a7a; }
+  .subheader p:nth-child(2) {
+    font-size: 3.5rem;
+    font-family: "Conv_Raleway-Bold";
+    color: #303233; }
+
+section .Date {
+  font-size: 0.65rem;
+  color: #7a7a7a;
+  font-family: "Conv_Lato-Regular"; }
+
+section .card-title {
+  font-size: 1.15rem; }
+
+section .card-text {
+  font-size: 0.87rem;
+  color: #7a7a7a;
+  font-family: "Conv_Lato-Regular"; }
+
+section .text-muted {
+  font-family: "Conv_Raleway-Bold";
+  color: #303233;
+  font-size: 0.65rem; }
+
+section .card {
+  border: none; }
+  section .card .texthover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+    section .card .texthover p:nth-child(1) {
+      font-family: "Conv_Lato-Regular";
+      font-size: 0.75rem;
+      color: #7a7a7a; }
+    section .card .texthover p:nth-child(2) {
+      font-family: "Conv_Raleway-Bold";
+      font-size: 1.25rem;
+      color: #303233; }
+  section .card .hover:hover .texthover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.5s linear; }
+
+section .card hr {
+  border-top: 1px solid #fcca03; }
+
+section .Categories h4 {
+  font-size: 1.15rem;
+  font-family: "Conv_Raleway-Bold";
+  color: #303233; }
+
+section .Categories hr {
+  border-top: 1px solid #7a7a7a;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+section .Categories hr:nth-of-type(1) {
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #fcca03; }
+
+section .Categories p {
+  font-size: 0.87rem;
+  font-family: "Conv_Lato-Regular";
+  color: #7a7a7a; }
+
+section .Instagram h4 {
+  font-size: 1.15rem;
+  font-family: "Conv_Raleway-Bold";
+  color: #303233; }
+
+section .Instagram hr {
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #fcca03; }
+
+section .Instagram .row .col-lg-3:nth-child(1) {
+  background-image: url("../imgs/02.Blog/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px; }
+
+section .Instagram .row .col-lg-3:nth-child(2) {
+  background-image: url("../imgs/02.Blog/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px; }
+
+section .Instagram .row .col-lg-3:nth-child(3) {
+  background-image: url("../imgs/02.Blog/img-3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px; }
+
+section .Instagram .row .col-lg-3:nth-child(4) {
+  background-image: url("../imgs/02.Blog/img-4.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px; }
+
+section .Instagram .row .col-lg-3:nth-child(5) {
+  background-image: url("../imgs/02.Blog/img-5.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px; }
+
+section .Instagram .row .col-lg-3:nth-child(6) {
+  background-image: url("../imgs/02.Blog/img-6.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px; }
+
+section .Instagram .row .col-lg-3:nth-child(7) {
+  background-image: url("../imgs/02.Blog/img-7.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px; }
+
+section .Instagram .row .col-lg-3:nth-child(8) {
+  background-image: url("../imgs/02.Blog/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px; }
+
+section .TextWidget h4 {
+  font-size: 1.15rem;
+  font-family: "Conv_Raleway-Bold";
+  color: #303233; }
+
+section .TextWidget hr {
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #fcca03; }
+
+section .TextWidget p {
+  font-size: 0.87rem;
+  font-family: "Conv_Lato-Regular";
+  color: #7a7a7a; }
+
+section .LatestNews h4 {
+  font-size: 1.15rem;
+  font-family: "Conv_Raleway-Bold";
+  color: #303233; }
+
+section .LatestNews hr {
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #fcca03; }
+
+section .LatestNews .imgsecp2 {
+  background-image: url("../imgs/02.Blog/small-img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px; }
+
+section .LatestNews h4:nth-of-type(2) {
+  font-size: 0.87rem; }
+
+section .LatestNews p {
+  font-size: 0.65rem;
+  font-family: "Conv_Lato-Regular";
+  color: #7a7a7a; }
+
+section .LatestNews hr:nth-of-type(2) {
+  border-top: 1px solid #7a7a7a;
+  width: 100%;
+  margin-top: 0; }
+
+section .LatestNews .media-body h5 {
+  font-size: 0.87rem;
+  font-family: "Conv_Raleway-Bold";
+  color: #303233; }
+
+section .TagWidget h4 {
+  font-size: 1.15rem;
+  font-family: "Conv_Raleway-Bold";
+  color: #303233; }
+
+section .TagWidget hr {
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #fcca03; }
+
+section .TagWidget .btn {
+  color: #7a7a7a;
+  border-color: #7a7a7a; }
+
+section .LatestComment h4 {
+  font-size: 1.15rem;
+  font-family: "Conv_Raleway-Bold";
+  color: #303233; }
+
+section .LatestComment hr:nth-of-type(1) {
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #fcca03; }
+
+section .LatestComment hr {
+  border-top: 1px solid #7a7a7a;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+section .LatestComment p {
+  font-size: 0.87rem;
+  font-family: "Conv_Lato-Regular";
+  color: #7a7a7a; }
+
+section .Archive h4 {
+  font-size: 1.15rem;
+  font-family: "Conv_Raleway-Bold";
+  color: #303233; }
+
+section .Archive hr:nth-of-type(1) {
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #fcca03; }
+
+section .Archive hr {
+  border-top: 1px solid #7a7a7a;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+section .Archive p {
+  font-size: 0.87rem;
+  font-family: "Conv_Lato-Regular";
+  color: #7a7a7a; }
+
+section .page-link {
+  color: #303233; }
+  section .page-link:hover {
+    text-decoration: none;
+    background-color: #fcca03;
+    border-color: transparent; }
+
+footer {
+  background-color: #303233;
+  color: white; }
+  footer hr {
+    border-top: 1px solid #fcca03; }
+  footer .Date {
+    font-family: "Conv_KaushanScript-Regular";
+    font-size: 0.65rem; }
+  footer .col-lg-4:nth-child(1) p {
+    font-size: 0.87rem;
+    font-family: "Conv_Lato-Regular";
+    color: white; }
+  footer h2 {
+    font-family: "Conv_Raleway-Bold";
+    font-size: 1.25rem; }
+  footer .media img:nth-child(1) {
+    width: 50px;
+    height: 50px; }
+  footer .media h5 {
+    font-family: "Conv_Raleway-Bold";
+    font-size: 0.87rem; }
+  footer .OurGallary .col-lg-3:nth-child(1) {
+    background-image: url("../imgs/01.Home/img-1 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(2) {
+    background-image: url("../imgs/01.Home/img-2 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(3) {
+    background-image: url("../imgs/01.Home/img-3 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(4) {
+    background-image: url("../imgs/01.Home/img-4 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(5) {
+    background-image: url("../imgs/01.Home/img-5.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(6) {
+    background-image: url("../imgs/01.Home/img-6.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(7) {
+    background-image: url("../imgs/01.Home/img-7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(8) {
+    background-image: url("../imgs/01.Home/img-8.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .footer {
+    background-color: #232424; }
+    footer .footer P {
+      font-size: 0.75rem;
+      font-family: "Conv_Lato-Regular";
+      color: #646565; }

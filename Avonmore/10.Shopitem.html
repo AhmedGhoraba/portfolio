@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>ShopList</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dest/css/Shopitem.css">
+</head>
+<body>
+    <!--    Start header-->
+   <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <a class="navbar-brand" href="01.index.html"><img src="dest/imgs/01.Home/logo-dark.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="01.index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="02.Blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="04.Portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="06.AboutUs.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="07.Contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="08.ShopGrid.html">Shop</a>
+                  </li>
+                </ul>
+
+              </div>
+              <div>
+            <i class="far fa-user pl-3"></i>
+             <i class="far fa-heart pl-3"></i>
+             <i class="fas fa-cart-plus pl-3" id="cart"></i>
+             <span class="number px-1">2</span>
+              
+          </div>
+
+            </nav>
+        </div>
+          
+        <div class="container" style="display: none" id="cartlist">
+            <div class="cart position-absolute">
+                <div class="media p-2">
+                  <img class="mr-3" src="dest/imgs/08.shopGrid/widget-img-1.jpg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <span class="mt-0">Geometric Wooden Vase</span> <i class="fas fa-trash-alt"></i>
+                    $50.00
+                  </div>
+                </div>
+                <hr>
+                <div class="media p-2">
+                  <img class="mr-3" src="dest/imgs/08.shopGrid/widget-img-2.jpg" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <span class="mt-0">Chrome Table Lamp</span> <i class="fas fa-trash-alt"></i>
+                    $630.00
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between p-2">
+                <span>Save Cart</span>
+                <span> total : $680.00</span>
+                </div>
+                <hr>
+                <div class="text-center p-2">
+                <button class="btn mybutton px-2 py-2" type="submit">VIEW CART </button>
+                <button class="btn mybutton px-2 py-2" type="submit">CHECKOUT </button>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="subheader">
+            <div class="container py-5">
+                <p class="mb-0">Shop Single item</p>
+                <p>White Moose Head</p>
+            </div>
+        </div>   
+   </header>
+<!--    End header-->
+<!--Start Shop item-->
+<section>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-7 ">
+                        <div class="big">
+                            
+                        </div>
+                        <div class="container">
+                            
+                        <div class="row">
+                           <div class="col-lg-12">
+                              <div class="row justify-content-between">
+
+                            <div class="col-lg-3 p-0 ">
+                                <div class="sm1 mr-2 mt-2"></div>
+                            </div>
+                            <div class="col-lg-3 p-0">
+                                <div class="sm2 mr-2 mt-2"></div>
+                            </div>
+                            <div class="col-lg-3 p-0">
+                                <div class="sm3 mr-2 mt-2"></div>
+                            </div>
+                            <div class="col-lg-3 p-0">
+                                <div class="sm4  mt-2"></div>
+                            </div>
+                              </div>
+
+                           </div>
+                        </div>
+                        </div>
+                    </div>
+                      <div class="col-lg-5">
+                        <div class="card mb-3">
+                              <div class="card-body">
+                               <div class="d-flex justify-content-between">
+                                <h5 class=" medtitle">White Moose Head</h5>
+                                <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                </div>
+                               </div>
+                                <p class="card-text"><small class="text-muted">by Lora Barnes</small></p>
+                                <p class="card-text">The Edmonton- White Faux Moose Head Wall Hanging, the original sculpure by White Faux Taxidermy.  Inspired by the natural wildlife surrounding our location in Utah, this faux moose head was created to appreciate nature.  Each Edmonton moose is first cast from a limited-run template, then they are hand-painted using a matte white acrylic paint which renders more detail without overwhelming your space.</p>
+                                <p class="card-text"><small class="text-muted">Material: Concrete</small></p>
+                                <hr>
+                                <span class="price pr-5">$86.00</span>
+                                <span><del>$106.00</del></span>
+                                <div class="d-flex justify-content-between py-4">
+                                <div class="dropdown ">
+                                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Choose type
+                                  </button>
+                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                  </div>
+                                </div>
+                                <div class="d-flex col-lg-4">
+                                    <span class="pr-2">Qty</span>
+                                    <input type="number" value="1" class="form-control">
+                                </div>
+                                </div>
+                                <hr>
+                                <button class="btn cart px-4 py-3 mb-2 rounded-0" type="submit">Add to Cart </button>
+                                <button class="btn px-3 py-3 mb-2 rounded-0" type="submit"><i class="far fa-star"></i> </button>
+                                <button class="btn px-3 py-3 mb-2 rounded-0" type="submit"><i class="fas fa-eye"></i> </button>
+                                <button class="btn px-3 py-3 mb-2 rounded-0" type="submit"><i class="fas fa-share"></i> </button>
+                                <p class="text-muted pb-5">Free Standard Domestic Shipping and free Returns on Orders of $75 or More</p>
+                                  <p><span class="font-weight-bold pr-2">Categories</span>:Picture</p>
+                                <p><span class="font-weight-bold pr-2">Share:</span><i class="fab fa-facebook-f border border-secondary p-2 mr-2"></i><i class="fab fa-twitter border border-secondary p-2 mr-2"></i><i class="fab fa-skype border border-secondary p-2 mr-2"></i></p>
+                              </div>
+                            </div>
+                    </div>
+                       
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+               <button class="btn cart px-4 py-3 mb-2 rounded-0" type="submit">DESCRIPTION </button>
+               <button class="btn px-4 py-3 mb-2 rounded-0" type="submit">REVIEWS</button>
+               <button class="btn px-4 py-3 mb-2 rounded-0" type="submit">SHIPPING</button>
+               <div class="bg-light p-3 mb-5">
+                   <h5 >Measurements:</h5>
+                   <ul>
+                       <li>18.5" tall (47 cm)</li>
+                       <li>24.25" wide (61.6 cm)</li>
+                       <li>8.25" deep (20.95 cm)</li>
+                   </ul>
+                   <h5 >Hanging Instructions:</h5>
+                   <ul class="mb-0">
+                       <li>Use a monkey hook, strong nail or screw</li>
+                       <li>The moose antlers are removable to save space in shipping</li>
+                       <li>Glue the antlers in place with super glue before hanging</li>
+                   </ul>
+               </div>
+            </div>
+        </div>
+   </div>
+   <div class="container pb-4">
+       <div class="row">
+           <div class="col-lg-12">
+               <h4>Related Products</h4>
+                <hr class="mb-3 "align="left">
+                <div class="row">
+                <div class="col-lg-3">
+                    <div class="card mb-3">
+                        <img class="card-img-top imgsec7" src="dest/imgs/08.shopGrid/img-7.jpg" alt="Card image cap">
+                        <div class="card-body px-0 d-flex justify-content-between pb-0">
+                          <span class=" carttitle">Snug. Vase Low / Copper</span>
+                          <i class="far fa-heart"></i>
+                        </div>
+                          <p class="card-text">$86.00</p>
+                      </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-3">
+                        <img class="card-img-top imgsec7" src="dest/imgs/08.shopGrid/img-8.jpg" alt="Card image cap">
+                        <div class="card-body px-0 d-flex justify-content-between pb-0">
+                          <span class=" carttitle">Snug. Vase Low / Copper</span>
+                          <i class="far fa-heart"></i>
+                        </div>
+                          <p class="card-text">$86.00</p>
+                      </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-3">
+                        <img class="card-img-top imgsec7" src="dest/imgs/08.shopGrid/img-9.jpg" alt="Card image cap">
+                        <div class="card-body px-0 d-flex justify-content-between pb-0">
+                          <span class=" carttitle">Snug. Vase Low / Copper</span>
+                          <i class="far fa-heart"></i>
+                        </div>
+                          <p class="card-text">$86.00</p>
+                      </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-3">
+                        <img class="card-img-top imgsec7" src="dest/imgs/08.shopGrid/img-3.jpg" alt="Card image cap">
+                        <div class="card-body px-0 d-flex justify-content-between pb-0">
+                          <span class=" carttitle">Snug. Vase Low / Copper</span>
+                          <i class="far fa-heart"></i>
+                        </div>
+                          <p class="card-text">$86.00</p>
+                      </div>
+                </div>
+                </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+
+<!--end Shop item-->
+    <!--   Start footer-->
+   <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-12">
+                   <div class="row">
+                       <div class="col-lg-4">
+                           <h2>About Us</h2>
+                           <hr align="left">
+                           <p>Morbi eu purus eget tellus fringilla malesuada eget nec nisi. Etiam nec dolor porttitor, cursus elit quis, tristique erat.   Sed rhoncus molestie elit sit amet viverra. </p>
+                           
+                           <div class="media">
+                              <i class="fas fa-map-marker-alt pr-2"></i>
+                              <div class="media-body">
+                                  <p >90-120 Swanston St,Melbourne VIC 3000, Australia</p>
+                              </div>
+                            </div>
+                            <div class="media">
+                              <i class="fas fa-phone pr-2"></i>
+                              <div class="media-body">
+                                  <p >+61 3 9559 9559 or +61 3 9669 9669 </p>
+                              </div>
+                            </div>
+                            <div class="media">
+                              <i class="far fa-envelope pr-2"></i>
+                              <div class="media-body">
+                                  <p >support@gtcreators.com </p>
+                              </div>
+                            </div>
+                       </div>
+                       <div class="col-lg-4">
+                           <h2>Recent News</h2>
+                           <hr align="left">
+                           
+                           <div class="media mb-3 d-flex align-items-center">
+                              <img class="mr-3" src="dest/imgs/01.Home/section-bg-14.jpg" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <p class="Date mb-0">14/07/2016</p>
+                                <h5 class="mt-0">Ut molestie quam erat, non finibus erat</h5>
+                              </div>
+                            </div>
+                            <div class="media mb-3 d-flex align-items-center">
+                              <img class="mr-3" src="dest/imgs/01.Home/img-10.jpg" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <p class="Date mb-0">14/07/2016</p>
+                                <h5 class="mt-0"> Mauris vel est porta, viverra orci non</h5>
+                                
+                              </div>
+                            </div>
+                            <div class="media mb-3 d-flex align-items-center">
+                              <img class="mr-3" src="dest/imgs/01.Home/img-11.jpg" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <p class="Date mb-0">14/07/2016</p>
+                                <h5 class="mt-0">Duis nibh nisl, egestas non sapien volutpat</h5>
+                              </div>
+                            </div>
+                       </div>
+                       
+                        <div class="col-lg-4 OurGallary">
+                           <h2>Our Gallary</h2>
+                           <hr align="left">
+                           <div class="container">
+                            <div class="row">
+                               <div class="col-lg-12">
+                                   <div class="row">
+                                        <div class="col-lg-3">
+
+                                        </div>
+                                        <div class="col-lg-3">
+
+                                        </div>
+                                        <div class="col-lg-3">
+
+                                        </div>
+                                        <div class="col-lg-3">
+
+                                        </div> <div class="col-lg-3">
+
+                                        </div> <div class="col-lg-3">
+
+                                        </div> <div class="col-lg-3">
+
+                                        </div> <div class="col-lg-3">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            </div>  
+                        
+                       </div>
+                       
+                   </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer py-2">
+        <div class="container text-center">
+            <p class="m-0 p-0">&copy 2016 GTC . All rights reserved</p>
+        </div>
+        </div>
+    </footer>
+<!--   End footer-->
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    var cart = document.getElementById("cart");
+    var cartlist = document.getElementById("cartlist");
+    cart.addEventListener("click",function(){
+        if(cartlist.style.display === "none")
+            {
+                cartlist.style.display = "block";
+            } else{
+                cartlist.style.display = "none";
+            }
+    })
+    </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Conv_KaushanScript-Regular';
+  src: url("../fonts/KaushanScript-Regular/fonts/KaushanScript-Regular.eot");
+  src: local("☺"), url("../fonts/KaushanScript-Regular/fonts/KaushanScript-Regular.woff") format("woff"), url("../fonts/KaushanScript-Regular/fonts/KaushanScript-Regular.ttf") format("truetype"), url("../fonts/KaushanScript-Regular/fonts/KaushanScript-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_Lato-Regular';
+  src: url("../fonts/Lato-Regular/fonts/Lato-Regular.eot");
+  src: local("☺"), url("../fonts/Lato-Regular/fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular/fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular/fonts/Lato-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_Raleway-Bold';
+  src: url("../fonts/Raleway-Bold/fonts/Raleway-Bold.eot");
+  src: local("☺"), url("../fonts/Raleway-Bold/fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold/fonts/Raleway-Bold.ttf") format("truetype"), url("../fonts/Raleway-Bold/fonts/Raleway-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aparajb';
+  src: url("../fonts/aparajb.ttf"); }
+
+@font-face {
+  font-family: 'Exodus-PersonalUse-Stencil';
+  src: url("../fonts/Exodus-PersonalUse-Stencil.otf"); }
+
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: url("../fonts/WorkSans-Regular.ttf"); }
+
+hr {
+  width: 2rem;
+  border: 0;
+  border-top: 1px solid #303233; }
+
+.smalltitle, .section9 .myhead h5 {
+  font-family: "Conv_KaushanScript-Regular";
+  font-size: 0.87rem;
+  color: #303233; }
+
+.medtitle, .section9 .myhead h2 {
+  font-family: "Conv_Raleway-Bold";
+  font-size: 1.9rem;
+  color: #303233; }
+
+.paragraph {
+  font-family: "Conv_Lato-Regular";
+  color: #7a7a7a;
+  font-size: 0.87rem; }
+
+.mybutton {
+  font-family: "Conv_Raleway-Bold";
+  font-size: 0.87rem;
+  color: #303233;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+  background-color: white; }
+
+.section9 .mybutton:hover {
+  background-color: #fcca03;
+  color: white;
+  cursor: pointer; }
+
+.subheader {
+  background-image: url("../imgs/07.contact/section-bg-10.jpg");
+  background-position: center;
+  background-size: cover; }
+  .subheader p:nth-child(1) {
+    font-size: 1.15rem;
+    font-family: "Conv_KaushanScript-Regular";
+    color: #7a7a7a; }
+  .subheader p:nth-child(2) {
+    font-size: 3.5rem;
+    font-family: "Conv_Raleway-Bold";
+    color: #303233; }
+
+.section9 .myhead p {
+  font-family: "Conv_Lato-Regular";
+  font-size: 0.75rem;
+  color: #7a7a7a;
+  width: 50%;
+  margin: 0 auto; }
+
+.section9 .myhead hr {
+  border-top: 1px solid #fcca03; }
+
+.section9 i {
+  font-size: 2rem; }
+
+.section9 .col-lg-3 p {
+  font-size: 1rem;
+  font-family: "Conv_Lato-Regular";
+  color: #7a7a7a; }
+
+footer {
+  background-color: #303233;
+  color: white; }
+  footer hr {
+    border-top: 1px solid #fcca03; }
+  footer .Date {
+    font-family: "Conv_KaushanScript-Regular";
+    font-size: 0.65rem; }
+  footer .col-lg-4:nth-child(1) p {
+    font-size: 0.87rem;
+    font-family: "Conv_Lato-Regular";
+    color: white; }
+  footer h2 {
+    font-family: "Conv_Raleway-Bold";
+    font-size: 1.25rem; }
+  footer .media img:nth-child(1) {
+    width: 50px;
+    height: 50px; }
+  footer .media h5 {
+    font-family: "Conv_Raleway-Bold";
+    font-size: 0.87rem; }
+  footer .OurGallary .col-lg-3:nth-child(1) {
+    background-image: url("../imgs/01.Home/img-1 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(2) {
+    background-image: url("../imgs/01.Home/img-2 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(3) {
+    background-image: url("../imgs/01.Home/img-3 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(4) {
+    background-image: url("../imgs/01.Home/img-4 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(5) {
+    background-image: url("../imgs/01.Home/img-5.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(6) {
+    background-image: url("../imgs/01.Home/img-6.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(7) {
+    background-image: url("../imgs/01.Home/img-7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .OurGallary .col-lg-3:nth-child(8) {
+    background-image: url("../imgs/01.Home/img-8.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px; }
+  footer .footer {
+    background-color: #232424; }
+    footer .footer P {
+      font-size: 0.75rem;
+      font-family: "Conv_Lato-Regular";
+      color: #646565; }
